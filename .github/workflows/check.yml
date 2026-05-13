@@ -1,0 +1,49 @@
+name: Check Monumental Events
+
+on:
+  schedule:
+    # Cada 6 horas, en :15 para evitar la hora exacta (GitHub Actions a veces demora)
+    - cron: "15 */6 * * *"
+  workflow_dispatch: {}  # permite correrlo a mano desde la UI de GitHub
+
+permissions:
+  contents: write  # necesario para commitear el state actualizado
+
+concurrency:
+  group: monumental-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install --quiet -r requirements.txt
+
+      - name: Run check
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python check_monumental.py
+
+      - name: Commit state if changed
+        run: |
+          git config user.name "monumental-bot"
+          git config user.email "monumental-bot@users.noreply.github.com"
+          if [[ -n $(git status --porcelain state/events.json) ]]; then
+            git add state/events.json
+            git commit -m "chore: update event state [skip ci]"
+            git push
+          else
+            echo "No state changes to commit."
+          fi
