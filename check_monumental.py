@@ -7,9 +7,9 @@ Más Monumental (River Plate) en los próximos 120 días. Compara contra el
 state guardado en el repo. Si hay eventos nuevos, manda mail a Laura.
 """
 
+import base64
 import json
 import os
-import smtplib
 import sys
 from datetime import datetime, timezone
 from email.mime.multipart import MIMEMultipart
@@ -17,6 +17,9 @@ from email.mime.text import MIMEText
 from pathlib import Path
 
 import anthropic
+from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
+from googleapiclient.discovery import build
 
 ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state" / "events.json"
@@ -194,18 +197,25 @@ def build_email(nuevos: list[dict]) -> tuple[str, str]:
 
 
 def send_email(subject: str, html_body: str) -> None:
-    user = os.environ["GMAIL_USER"]
-    password = os.environ["GMAIL_APP_PASSWORD"]
+    creds = Credentials(
+        token=None,
+        refresh_token=os.environ["MAIL_OAUTH_REFRESH_TOKEN"],
+        token_uri="https://oauth2.googleapis.com/token",
+        client_id=os.environ["MAIL_OAUTH_CLIENT_ID"],
+        client_secret=os.environ["MAIL_OAUTH_CLIENT_SECRET"],
+        scopes=["https://www.googleapis.com/auth/gmail.send"],
+    )
+    creds.refresh(Request())
 
     msg = MIMEMultipart("alternative")
-    msg["From"] = user
     msg["To"] = RECIPIENT
+    msg["From"] = "Monumental Alert"
     msg["Subject"] = subject
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-        server.login(user, password)
-        server.sendmail(user, [RECIPIENT], msg.as_string())
+    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode("ascii")
+    service = build("gmail", "v1", credentials=creds, cache_discovery=False)
+    service.users().messages().send(userId="me", body={"raw": raw}).execute()
 
 
 def main() -> int:
