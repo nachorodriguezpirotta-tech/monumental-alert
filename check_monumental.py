@@ -145,9 +145,32 @@ def fetch_events_from_gemini() -> list[dict]:
     return cleaned
 
 
+_STOPWORDS = {
+    "vs", "el", "la", "los", "las", "de", "del", "en", "y", "con", "por", "fecha",
+    "estadio", "mas", "más", "monumental", "river", "plate", "club", "atlético", "atletico",
+    "copa", "fase", "grupos", "grupo", "2026", "2025", "2027",
+}
+
+
+def _tokens(name: str) -> set[str]:
+    text = re.sub(r"\([^)]*\)", " ", name.lower())
+    text = re.sub(r"[^\w\s]", " ", text, flags=re.UNICODE)
+    return {t for t in text.split() if len(t) > 2 and t not in _STOPWORDS}
+
+
+def same_event(a: dict, b: dict) -> bool:
+    if a.get("id") and a["id"] == b.get("id"):
+        return True
+    if a.get("fecha") != b.get("fecha"):
+        return False
+    ta, tb = _tokens(a.get("nombre", "")), _tokens(b.get("nombre", ""))
+    if not ta or not tb:
+        return False
+    return bool(ta & tb)
+
+
 def diff_events(current: list[dict], previous: list[dict]) -> list[dict]:
-    prev_ids = {e["id"] for e in previous}
-    return [e for e in current if e["id"] not in prev_ids]
+    return [e for e in current if not any(same_event(e, p) for p in previous)]
 
 
 TIPO_LABEL = {
@@ -250,12 +273,10 @@ def main() -> int:
         send_email(subject, html_body)
         print(f"✉️  Mail enviado a {RECIPIENT}: {subject}")
 
-    merged_ids = {e["id"] for e in previous}
-    merged = list(previous)
     today = datetime.now(timezone.utc).date().isoformat()
-    merged = [e for e in merged if e["fecha"] >= today]
+    merged = [e for e in previous if e["fecha"] >= today]
     for e in current:
-        if e["id"] not in {x["id"] for x in merged}:
+        if not any(same_event(e, m) for m in merged):
             merged.append({**e, "notificado_en": today})
     merged.sort(key=lambda x: x["fecha"])
 

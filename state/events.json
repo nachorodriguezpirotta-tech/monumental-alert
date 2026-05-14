@@ -9,28 +9,12 @@
       "notificado_en": "2026-05-13"
     },
     {
-      "id": "river-vs-bragantino-2026-05-20",
-      "nombre": "River Plate vs. Red Bull Bragantino",
-      "fecha": "2026-05-20",
-      "tipo": "sudamericana",
-      "fuente": "https://www.tycsports.com/river-plate/fixture-river-copa-sudamericana-2026-cuando-juega-id608020.html",
-      "notificado_en": "2026-05-14"
-    },
-    {
       "id": "river-vs-blooming-sudamericana-2026-05-27",
       "nombre": "River Plate vs. Blooming (Copa Sudamericana 2026 – Fase de grupos)",
       "fecha": "2026-05-27",
       "tipo": "sudamericana",
       "fuente": "https://www.cariverplate.com.ar/apertura-y-conmebol-sudamericana-fixture-de-los-partidos-confirmados",
       "notificado_en": "2026-05-13"
-    },
-    {
-      "id": "river-vs-blooming-2026-05-27",
-      "nombre": "River Plate vs. Blooming",
-      "fecha": "2026-05-27",
-      "tipo": "sudamericana",
-      "fuente": "https://www.tycsports.com/river-plate/fixture-river-copa-sudamericana-2026-cuando-juega-id608020.html",
-      "notificado_en": "2026-05-14"
     },
     {
       "id": "experiencia-montiel-2026-05-29",
@@ -57,5 +41,5 @@
       "notificado_en": "2026-05-13"
     }
   ],
-  "ultima_revision": "2026-05-14T13:26:07.786580+00:00"
+  "ultima_revision": "2026-05-14T13:26:07.787100+00:00"
 }
