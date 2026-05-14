@@ -1,14 +1,6 @@
 {
   "eventos": [
     {
-      "id": "river-vs-gimnasia-lp-2026-05-13",
-      "nombre": "River Plate vs. Gimnasia La Plata (Apertura 2026 – Cuartos de final)",
-      "fecha": "2026-05-13",
-      "tipo": "otro",
-      "fuente": "https://www.cariverplate.com.ar/calendario-de-partidos",
-      "notificado_en": "2026-05-13"
-    },
-    {
       "id": "river-vs-bragantino-sudamericana-2026-05-20",
       "nombre": "River Plate vs. RB Bragantino (Copa Sudamericana 2026 – Fase de grupos)",
       "fecha": "2026-05-20",
@@ -41,5 +33,5 @@
       "notificado_en": "2026-05-13"
     }
   ],
-  "ultima_revision": "2026-05-13T15:13:01.142859+00:00"
+  "ultima_revision": "2026-05-14T04:10:47.437057+00:00"
 }
