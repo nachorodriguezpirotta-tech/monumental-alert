@@ -39,7 +39,15 @@
       "tipo": "recital",
       "fuente": "https://www.lanacion.com.ar/espectaculos/lali-esposito-sumo-una-nueva-fecha-en-river-cuando-es-y-como-sacar-las-entradas-nid26122025/",
       "notificado_en": "2026-05-13"
+    },
+    {
+      "id": "los-piojos-2026-07-18",
+      "nombre": "Los Piojos",
+      "fecha": "2026-07-18",
+      "tipo": "recital",
+      "fuente": "https://www.fmlaboca.com.ar/los-piojos-confirmo-show-en-river-para-julio-fecha-estadio-y-venta-de-entradas/",
+      "notificado_en": "2026-05-14"
     }
   ],
-  "ultima_revision": "2026-05-14T13:26:07.787100+00:00"
+  "ultima_revision": "2026-05-14T13:28:48.051671+00:00"
 }
