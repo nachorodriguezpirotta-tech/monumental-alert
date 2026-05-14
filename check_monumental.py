@@ -2,21 +2,23 @@
 """
 Monumental Alert — corre en GitHub Actions cada 6 horas.
 
-Usa Claude con web_search para detectar eventos confirmados en el Estadio
-Más Monumental (River Plate) en los próximos 120 días. Compara contra el
-state guardado en el repo. Si hay eventos nuevos, manda mail a Laura.
+Usa Gemini (tier gratis de Google AI Studio) con grounding de Google Search
+para detectar eventos confirmados en el Estadio Más Monumental (River Plate)
+en los próximos 120 días. Compara contra el state guardado en el repo. Si
+hay eventos nuevos, manda mail a Laura.
 """
 
 import base64
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
 
-import anthropic
+import requests
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
@@ -24,7 +26,8 @@ from googleapiclient.discovery import build
 ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state" / "events.json"
 RECIPIENT = "laura.pirotta@gmail.com"
-MODEL = "claude-sonnet-4-6"
+GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
 SYSTEM_PROMPT = """Sos un asistente que busca en la web eventos confirmados en el Estadio Más Monumental (estadio de River Plate, Núñez, Buenos Aires, Argentina).
 
@@ -86,27 +89,38 @@ def save_state(state: dict) -> None:
     STATE_PATH.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")
 
 
-def fetch_events_from_claude() -> list[dict]:
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=4096,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": USER_PROMPT}],
-        tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}],
+def fetch_events_from_gemini() -> list[dict]:
+    api_key = os.environ["GEMINI_API_KEY"]
+    body = {
+        "system_instruction": {"parts": [{"text": SYSTEM_PROMPT}]},
+        "contents": [{"role": "user", "parts": [{"text": USER_PROMPT}]}],
+        "tools": [{"google_search": {}}],
+        "generationConfig": {"temperature": 0.2, "maxOutputTokens": 4096},
+    }
+    resp = requests.post(
+        GEMINI_URL,
+        params={"key": api_key},
+        json=body,
+        timeout=120,
     )
+    resp.raise_for_status()
+    data = resp.json()
 
-    text_parts = [b.text for b in response.content if getattr(b, "type", None) == "text"]
-    raw = "\n".join(text_parts).strip()
+    parts = data.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+    raw = "".join(p.get("text", "") for p in parts).strip()
 
-    start = raw.find("{")
-    end = raw.rfind("}")
-    if start == -1 or end == -1:
-        raise RuntimeError(f"No JSON found in Claude response:\n{raw[:500]}")
+    fence = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", raw, re.DOTALL)
+    if fence:
+        raw_json = fence.group(1)
+    else:
+        start = raw.find("{")
+        end = raw.rfind("}")
+        if start == -1 or end == -1:
+            raise RuntimeError(f"No JSON found in Gemini response:\n{raw[:500]}")
+        raw_json = raw[start : end + 1]
 
-    data = json.loads(raw[start : end + 1])
-    eventos = data.get("eventos", [])
+    parsed = json.loads(raw_json)
+    eventos = parsed.get("eventos", [])
 
     today = datetime.now(timezone.utc).date().isoformat()
     cleaned = []
@@ -223,7 +237,7 @@ def main() -> int:
     previous = state.get("eventos", [])
 
     print(f"[{datetime.now(timezone.utc).isoformat()}] Buscando eventos en el Monumental...")
-    current = fetch_events_from_claude()
+    current = fetch_events_from_gemini()
     print(f"Eventos detectados: {len(current)}")
     for e in current:
         print(f"  - {e['fecha']}  {e['nombre']}  ({e['tipo']})")
