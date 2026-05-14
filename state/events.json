@@ -1,6 +1,14 @@
 {
   "eventos": [
     {
+      "id": "river-vs-rosario-central-2026-05-16",
+      "nombre": "River Plate vs. Rosario Central",
+      "fecha": "2026-05-16",
+      "tipo": "otro",
+      "fuente": "https://www.tycsports.com/liga-profesional-de-futbol/fixture-del-apertura-2026-calendario-de-partidos-y-resultados-id500000.html",
+      "notificado_en": "2026-05-14"
+    },
+    {
       "id": "river-vs-bragantino-sudamericana-2026-05-20",
       "nombre": "River Plate vs. RB Bragantino (Copa Sudamericana 2026 – Fase de grupos)",
       "fecha": "2026-05-20",
@@ -49,5 +57,5 @@
       "notificado_en": "2026-05-14"
     }
   ],
-  "ultima_revision": "2026-05-14T14:38:05.708696+00:00"
+  "ultima_revision": "2026-05-14T20:00:51.442931+00:00"
 }
