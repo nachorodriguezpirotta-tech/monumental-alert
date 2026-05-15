@@ -33,6 +33,14 @@
       "notificado_en": "2026-05-14"
     },
     {
+      "id": "river-vs-deportivo-tachira-2026-05-30",
+      "nombre": "River Plate vs. Deportivo Táchira",
+      "fecha": "2026-05-30",
+      "tipo": "libertadores",
+      "fuente": "https://www.onefootball.com/es/noticias/el-calendario-de-river-en-la-fase-de-grupos-de-la-copa-libertadores-39294285",
+      "notificado_en": "2026-05-15"
+    },
+    {
       "id": "lali-esposito-2026-06-06",
       "nombre": "Lali Espósito – Estadio Más Monumental (fecha 1)",
       "fecha": "2026-06-06",
@@ -57,5 +65,5 @@
       "notificado_en": "2026-05-14"
     }
   ],
-  "ultima_revision": "2026-05-15T04:14:52.477663+00:00"
+  "ultima_revision": "2026-05-15T09:23:33.784887+00:00"
 }
