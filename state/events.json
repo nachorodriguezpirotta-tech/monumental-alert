@@ -71,7 +71,15 @@
       "tipo": "recital",
       "fuente": "https://www.fmlaboca.com.ar/los-piojos-confirmo-show-en-river-para-julio-fecha-estadio-y-venta-de-entradas/",
       "notificado_en": "2026-05-14"
+    },
+    {
+      "id": "seleccion-argentina-vs-venezuela-2026-09-04",
+      "nombre": "Selección Argentina vs. Venezuela (Eliminatorias Mundial 2026)",
+      "fecha": "2026-09-04",
+      "tipo": "seleccion",
+      "fuente": "https://www.lanacion.com.ar/deportes/futbol/seleccion-argentina/partidos-de-la-seleccion-argentina-en-2026-que-le-queda-en-eliminatorias-sudamericanas-y-amistosos-nid05082025/",
+      "notificado_en": "2026-05-17"
     }
   ],
-  "ultima_revision": "2026-05-17T08:32:02.004532+00:00"
+  "ultima_revision": "2026-05-17T13:55:06.174000+00:00"
 }
