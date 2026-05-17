@@ -57,6 +57,14 @@
       "notificado_en": "2026-05-13"
     },
     {
+      "id": "river-vs-aldosivi-2026-06-07",
+      "nombre": "River Plate vs. Aldosivi",
+      "fecha": "2026-06-07",
+      "tipo": "copa-argentina",
+      "fuente": "https://www.lapaginamillonaria.com/cuando-juega-river-plate",
+      "notificado_en": "2026-05-17"
+    },
+    {
       "id": "los-piojos-2026-07-18",
       "nombre": "Los Piojos",
       "fecha": "2026-07-18",
@@ -65,5 +73,5 @@
       "notificado_en": "2026-05-14"
     }
   ],
-  "ultima_revision": "2026-05-17T04:18:00.697231+00:00"
+  "ultima_revision": "2026-05-17T08:32:02.004532+00:00"
 }
