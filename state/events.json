@@ -73,6 +73,14 @@
       "notificado_en": "2026-05-14"
     },
     {
+      "id": "21k-media-maraton-buenos-aires-2026-08-23",
+      "nombre": "21K Media Maratón Buenos Aires",
+      "fecha": "2026-08-23",
+      "tipo": "otro",
+      "fuente": "https://www.sucresuites.com.ar/eventos-2026/",
+      "notificado_en": "2026-05-19"
+    },
+    {
       "id": "seleccion-argentina-vs-venezuela-2026-09-04",
       "nombre": "Selección Argentina vs. Venezuela (Eliminatorias Mundial 2026)",
       "fecha": "2026-09-04",
@@ -81,5 +89,5 @@
       "notificado_en": "2026-05-17"
     }
   ],
-  "ultima_revision": "2026-05-18T19:58:13.747424+00:00"
+  "ultima_revision": "2026-05-19T04:22:27.566158+00:00"
 }
