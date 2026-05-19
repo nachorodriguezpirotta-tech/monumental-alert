@@ -9,6 +9,14 @@
       "notificado_en": "2026-05-13"
     },
     {
+      "id": "river-vs-belgrano-2026-05-24",
+      "nombre": "River Plate vs. Belgrano (Final Torneo Apertura)",
+      "fecha": "2026-05-24",
+      "tipo": "otro",
+      "fuente": "https://www.infobae.com/deportes/2026/05/17/donde-y-cuando-se-jugara-la-final-del-torneo-apertura-entre-river-plate-y-belgrano-de-cordoba/",
+      "notificado_en": "2026-05-19"
+    },
+    {
       "id": "river-vs-blooming-sudamericana-2026-05-27",
       "nombre": "River Plate vs. Blooming (Copa Sudamericana 2026 – Fase de grupos)",
       "fecha": "2026-05-27",
@@ -89,5 +97,5 @@
       "notificado_en": "2026-05-17"
     }
   ],
-  "ultima_revision": "2026-05-19T15:47:33.378015+00:00"
+  "ultima_revision": "2026-05-19T20:06:36.103459+00:00"
 }
