@@ -1,14 +1,6 @@
 {
   "eventos": [
     {
-      "id": "river-vs-bragantino-sudamericana-2026-05-20",
-      "nombre": "River Plate vs. RB Bragantino (Copa Sudamericana 2026 – Fase de grupos)",
-      "fecha": "2026-05-20",
-      "tipo": "sudamericana",
-      "fuente": "https://www.cariverplate.com.ar/apertura-y-conmebol-sudamericana-fixture-de-los-partidos-confirmados",
-      "notificado_en": "2026-05-13"
-    },
-    {
       "id": "river-vs-belgrano-2026-05-24",
       "nombre": "River Plate vs. Belgrano (Final Torneo Apertura)",
       "fecha": "2026-05-24",
@@ -97,5 +89,5 @@
       "notificado_en": "2026-05-17"
     }
   ],
-  "ultima_revision": "2026-05-20T20:29:27.658349+00:00"
+  "ultima_revision": "2026-05-21T04:41:18.233784+00:00"
 }
