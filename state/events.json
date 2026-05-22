@@ -41,6 +41,14 @@
       "notificado_en": "2026-05-15"
     },
     {
+      "id": "experiencia-monumental-montiel-2026-06-04",
+      "nombre": "Experiencia Monumental con Gonzalo Montiel",
+      "fecha": "2026-06-04",
+      "tipo": "otro",
+      "fuente": "https://www.mdzol.com/sociedad/2026/5/13/experiencia-monumental-abriran-el-estadio-para-una-estadia-nocturna-inedita-de-cara-al-mundial-2026-427383.html",
+      "notificado_en": "2026-05-22"
+    },
+    {
       "id": "lali-esposito-2026-06-06",
       "nombre": "Lali Espósito – Estadio Más Monumental (fecha 1)",
       "fecha": "2026-06-06",
@@ -97,5 +105,5 @@
       "notificado_en": "2026-05-17"
     }
   ],
-  "ultima_revision": "2026-05-22T15:18:50.277978+00:00"
+  "ultima_revision": "2026-05-22T20:04:52.308554+00:00"
 }
