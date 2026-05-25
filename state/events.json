@@ -1,14 +1,6 @@
 {
   "eventos": [
     {
-      "id": "river-vs-belgrano-2026-05-24",
-      "nombre": "River Plate vs. Belgrano (Final Torneo Apertura)",
-      "fecha": "2026-05-24",
-      "tipo": "otro",
-      "fuente": "https://www.infobae.com/deportes/2026/05/17/donde-y-cuando-se-jugara-la-final-del-torneo-apertura-entre-river-plate-y-belgrano-de-cordoba/",
-      "notificado_en": "2026-05-19"
-    },
-    {
       "id": "river-vs-blooming-sudamericana-2026-05-27",
       "nombre": "River Plate vs. Blooming (Copa Sudamericana 2026 – Fase de grupos)",
       "fecha": "2026-05-27",
@@ -103,7 +95,15 @@
       "tipo": "seleccion",
       "fuente": "https://www.lanacion.com.ar/deportes/futbol/seleccion-argentina/partidos-de-la-seleccion-argentina-en-2026-que-le-queda-en-eliminatorias-sudamericanas-y-amistosos-nid05082025/",
       "notificado_en": "2026-05-17"
+    },
+    {
+      "id": "42k-maraton-internacional-buenos-aires-2026-09-20",
+      "nombre": "42K Maratón Internacional Buenos Aires 2026",
+      "fecha": "2026-09-20",
+      "tipo": "otro",
+      "fuente": "https://www.sucresuites.com.ar/eventos-2026/",
+      "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-05-24T19:38:23.352872+00:00"
+  "ultima_revision": "2026-05-25T04:48:05.670546+00:00"
 }
