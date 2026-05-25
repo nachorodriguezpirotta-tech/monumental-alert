@@ -9,6 +9,14 @@
       "notificado_en": "2026-05-13"
     },
     {
+      "id": "river-vs-blooming-2026-05-28",
+      "nombre": "River Plate vs. Blooming",
+      "fecha": "2026-05-28",
+      "tipo": "sudamericana",
+      "fuente": "https://www.riverplate.com.ar/calendario-de-partidos, https://www.dazn.com/es-AR/news/f%C3%BAtbol/river-plate-vs-blooming-en-vivo-horarios-transmision-online-y-canales-de-la-copa-sudamericana-en-argentina-bolivia-espana-mexico-y-estados-unidos/1j20c81216551101s61973004",
+      "notificado_en": "2026-05-25"
+    },
+    {
       "id": "experiencia-montiel-2026-05-29",
       "nombre": "Experiencia Monumental con Gonzalo Montiel",
       "fecha": "2026-05-29",
@@ -105,5 +113,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-05-25T10:45:29.256796+00:00"
+  "ultima_revision": "2026-05-25T15:27:35.508329+00:00"
 }
