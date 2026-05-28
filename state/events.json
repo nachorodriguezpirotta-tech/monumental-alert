@@ -1,14 +1,6 @@
 {
   "eventos": [
     {
-      "id": "river-vs-blooming-sudamericana-2026-05-27",
-      "nombre": "River Plate vs. Blooming (Copa Sudamericana 2026 – Fase de grupos)",
-      "fecha": "2026-05-27",
-      "tipo": "sudamericana",
-      "fuente": "https://www.cariverplate.com.ar/apertura-y-conmebol-sudamericana-fixture-de-los-partidos-confirmados",
-      "notificado_en": "2026-05-13"
-    },
-    {
       "id": "river-vs-blooming-2026-05-28",
       "nombre": "River Plate vs. Blooming",
       "fecha": "2026-05-28",
@@ -113,5 +105,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-05-27T20:29:04.314382+00:00"
+  "ultima_revision": "2026-05-28T04:36:27.543248+00:00"
 }
