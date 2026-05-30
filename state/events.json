@@ -1,22 +1,6 @@
 {
   "eventos": [
     {
-      "id": "experiencia-montiel-2026-05-29",
-      "nombre": "Experiencia Monumental con Gonzalo Montiel",
-      "fecha": "2026-05-29",
-      "tipo": "otro",
-      "fuente": "https://www.infobae.com/deportes/2026/05/13/gonzalo-montiel-abre-las-puertas-del-monumental-como-participar-de-la-experiencia/",
-      "notificado_en": "2026-05-14"
-    },
-    {
-      "id": "airbnb-monumental-experience-2026-05-29",
-      "nombre": "Airbnb Monumental Experience",
-      "fecha": "2026-05-29",
-      "tipo": "otro",
-      "fuente": "https://news.airbnb.com/es/una-experiencia-monumental-gonzalo-montiel-abre-las-puertas-de-uno-de-los-estadios-mas-iconicos-del-futbol/",
-      "notificado_en": "2026-05-15"
-    },
-    {
       "id": "river-vs-deportivo-tachira-2026-05-30",
       "nombre": "River Plate vs. Deportivo Táchira",
       "fecha": "2026-05-30",
@@ -97,6 +81,14 @@
       "notificado_en": "2026-05-17"
     },
     {
+      "id": "seleccion-argentina-vs-ecuador-2026-09-08",
+      "nombre": "Selección Argentina vs. Ecuador",
+      "fecha": "2026-09-08",
+      "tipo": "seleccion",
+      "fuente": "https://www.442.perfil.com/noticias/eliminatorias-mundial-2026-se-confirmo-el-horario-del-debut-de-la-seleccion-argentina.phtml",
+      "notificado_en": "2026-05-30"
+    },
+    {
       "id": "42k-maraton-internacional-buenos-aires-2026-09-20",
       "nombre": "42K Maratón Internacional Buenos Aires 2026",
       "fecha": "2026-09-20",
@@ -105,5 +97,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-05-29T10:12:59.640672+00:00"
+  "ultima_revision": "2026-05-30T04:14:59.600266+00:00"
 }
