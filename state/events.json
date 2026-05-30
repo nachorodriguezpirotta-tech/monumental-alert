@@ -89,6 +89,14 @@
       "notificado_en": "2026-05-30"
     },
     {
+      "id": "river-plate-vs-palmeiras-2026-09-17",
+      "nombre": "River Plate vs. Palmeiras",
+      "fecha": "2026-09-17",
+      "tipo": "libertadores",
+      "fuente": "https://www.stadibox.com/blog/lo-que-tenes-que-saber-del-monumental-eventos-y-curiosidades",
+      "notificado_en": "2026-05-30"
+    },
+    {
       "id": "42k-maraton-internacional-buenos-aires-2026-09-20",
       "nombre": "42K Maratón Internacional Buenos Aires 2026",
       "fecha": "2026-09-20",
@@ -97,5 +105,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-05-30T04:14:59.600266+00:00"
+  "ultima_revision": "2026-05-30T08:39:28.417141+00:00"
 }
