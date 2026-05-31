@@ -1,14 +1,6 @@
 {
   "eventos": [
     {
-      "id": "river-vs-deportivo-tachira-2026-05-30",
-      "nombre": "River Plate vs. Deportivo Táchira",
-      "fecha": "2026-05-30",
-      "tipo": "libertadores",
-      "fuente": "https://www.onefootball.com/es/noticias/el-calendario-de-river-en-la-fase-de-grupos-de-la-copa-libertadores-39294285",
-      "notificado_en": "2026-05-15"
-    },
-    {
       "id": "experiencia-monumental-montiel-2026-06-04",
       "nombre": "Experiencia Monumental con Gonzalo Montiel",
       "fecha": "2026-06-04",
@@ -113,5 +105,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-05-30T19:40:05.619389+00:00"
+  "ultima_revision": "2026-05-31T04:48:38.402823+00:00"
 }
