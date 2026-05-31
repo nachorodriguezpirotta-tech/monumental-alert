@@ -81,6 +81,14 @@
       "notificado_en": "2026-05-17"
     },
     {
+      "id": "seleccion-argentina-vs-ecuador-2026-09-07",
+      "nombre": "Selección Argentina vs. Ecuador (Eliminatorias Mundial 2026)",
+      "fecha": "2026-09-07",
+      "tipo": "seleccion",
+      "fuente": "https://www.lanacion.com.ar/deportes/futbol/fixture-de-las-eliminatorias-2026-todos-los-partidos-de-la-seleccion-argentina-nid05092023/",
+      "notificado_en": "2026-05-31"
+    },
+    {
       "id": "seleccion-argentina-vs-ecuador-2026-09-08",
       "nombre": "Selección Argentina vs. Ecuador",
       "fecha": "2026-09-08",
@@ -105,5 +113,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-05-31T09:22:05.771927+00:00"
+  "ultima_revision": "2026-05-31T14:09:05.653422+00:00"
 }
