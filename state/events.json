@@ -65,6 +65,14 @@
       "notificado_en": "2026-05-28"
     },
     {
+      "id": "river-plate-sudamericana-octavos-2026-08-18",
+      "nombre": "River Plate vs. Ganador Playoff (Copa Sudamericana - Octavos de Final Vuelta)",
+      "fecha": "2026-08-18",
+      "tipo": "sudamericana",
+      "fuente": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOZNTZXPcAibQ-0ys2Vl1fvMPmeivD52eVUgMnsT03pyjd-OUJWIBMMv_tVN5nLKyfGKBrw5Heu0GMKny0gmbpGPD0C7AybDn2BFaW_UGSAFECz2BO_jpoV0tD3o_7nU0U2AfkSucaxXWOdNVGsThmzYi4_OIRb4sG5GZJDYTieB47uRkVaP25qksJBzFU_Wa1foHNYI1waSJRbEhXnoiK2tBm6El9wfXUOR7HJxqrMYM46A==",
+      "notificado_en": "2026-06-02"
+    },
+    {
       "id": "21k-media-maraton-buenos-aires-2026-08-23",
       "nombre": "21K Media Maratón Buenos Aires",
       "fecha": "2026-08-23",
@@ -113,5 +121,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-06-02T04:58:34.401998+00:00"
+  "ultima_revision": "2026-06-02T10:54:15.546181+00:00"
 }
