@@ -49,6 +49,14 @@
       "notificado_en": "2026-05-14"
     },
     {
+      "id": "river-plate-sudamericana-2026-07-29",
+      "nombre": "River Plate (Octavos de Final Copa Sudamericana - Vuelta)",
+      "fecha": "2026-07-29",
+      "tipo": "sudamericana",
+      "fuente": "https://www.lapaginamillonaria.com/river-plate/se-confirmaron-los-dos-posibles-rivales-que-tendra-river-en-los-octavos-de-final-de-la-sudamericana-2026-independiente-santa-fe-o-caracas-n20260529-0002.html (Los encuentros de vuelta se jugarán entre el 28, 29 y 30 de julio)",
+      "notificado_en": "2026-06-03"
+    },
+    {
       "id": "rosalia-2026-08-01",
       "nombre": "Rosalía",
       "fecha": "2026-08-01",
@@ -121,5 +129,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-06-02T21:22:49.462401+00:00"
+  "ultima_revision": "2026-06-03T05:08:49.401458+00:00"
 }
