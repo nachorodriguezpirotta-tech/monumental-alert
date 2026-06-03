@@ -81,6 +81,14 @@
       "notificado_en": "2026-06-02"
     },
     {
+      "id": "river-plate-libertadores-2026-08-19",
+      "nombre": "River Plate (Copa Libertadores - Octavos de Final)",
+      "fecha": "2026-08-19",
+      "tipo": "libertadores",
+      "fuente": "https://www.conmebollibertadores.com/teams/river-plate/",
+      "notificado_en": "2026-06-03"
+    },
+    {
       "id": "21k-media-maraton-buenos-aires-2026-08-23",
       "nombre": "21K Media Maratón Buenos Aires",
       "fecha": "2026-08-23",
@@ -129,5 +137,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-06-03T11:21:41.748846+00:00"
+  "ultima_revision": "2026-06-03T17:13:08.474069+00:00"
 }
