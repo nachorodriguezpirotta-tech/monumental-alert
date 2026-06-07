@@ -1,14 +1,6 @@
 {
   "eventos": [
     {
-      "id": "lali-esposito-2026-06-06",
-      "nombre": "Lali Espósito – Estadio Más Monumental (fecha 1)",
-      "fecha": "2026-06-06",
-      "tipo": "recital",
-      "fuente": "https://www.lanacion.com.ar/espectaculos/lali-esposito-sumo-una-nueva-fecha-en-river-cuando-es-y-como-sacar-las-entradas-nid26122025/",
-      "notificado_en": "2026-05-13"
-    },
-    {
       "id": "lali-esposito-2026-06-07",
       "nombre": "Lali Espósito – Estadio Más Monumental (fecha 2)",
       "fecha": "2026-06-07",
@@ -129,5 +121,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-06-06T19:45:09.088322+00:00"
+  "ultima_revision": "2026-06-07T09:32:45.278434+00:00"
 }
