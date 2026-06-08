@@ -1,30 +1,6 @@
 {
   "eventos": [
     {
-      "id": "lali-esposito-2026-06-07",
-      "nombre": "Lali Espósito – Estadio Más Monumental (fecha 2)",
-      "fecha": "2026-06-07",
-      "tipo": "recital",
-      "fuente": "https://www.lanacion.com.ar/espectaculos/lali-esposito-sumo-una-nueva-fecha-en-river-cuando-es-y-como-sacar-las-entradas-nid26122025/",
-      "notificado_en": "2026-05-13"
-    },
-    {
-      "id": "river-vs-aldosivi-2026-06-07",
-      "nombre": "River Plate vs. Aldosivi",
-      "fecha": "2026-06-07",
-      "tipo": "copa-argentina",
-      "fuente": "https://www.lapaginamillonaria.com/cuando-juega-river-plate",
-      "notificado_en": "2026-05-17"
-    },
-    {
-      "id": "seleccion-argentina-vs-colombia-2026-06-07",
-      "nombre": "Selección Argentina vs. Colombia (Eliminatorias Mundial 2026)",
-      "fecha": "2026-06-07",
-      "tipo": "seleccion",
-      "fuente": "https://www.deportick.com/eventos/argentina-vs-colombia",
-      "notificado_en": "2026-05-22"
-    },
-    {
       "id": "los-piojos-2026-07-18",
       "nombre": "Los Piojos",
       "fecha": "2026-07-18",
@@ -71,6 +47,14 @@
       "tipo": "libertadores",
       "fuente": "https://www.conmebollibertadores.com/teams/river-plate/",
       "notificado_en": "2026-06-03"
+    },
+    {
+      "id": "river-libertadores-octavos-2026-08-19",
+      "nombre": "River Plate vs. TBD (Copa Libertadores - Octavos de Final)",
+      "fecha": "2026-08-19",
+      "tipo": "libertadores",
+      "fuente": "https://www.conmebol.com/libertadores/teams/river-plate/",
+      "notificado_en": "2026-06-08"
     },
     {
       "id": "21k-media-maraton-buenos-aires-2026-08-23",
@@ -121,5 +105,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-06-07T19:44:45.309952+00:00"
+  "ultima_revision": "2026-06-08T04:59:18.743919+00:00"
 }
