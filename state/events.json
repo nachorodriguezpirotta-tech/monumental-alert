@@ -41,6 +41,14 @@
       "notificado_en": "2026-06-02"
     },
     {
+      "id": "river-plate-copa-sudamericana-2026-08-18",
+      "nombre": "River Plate vs. TBD (Octavos de Final Vuelta Copa Sudamericana)",
+      "fecha": "2026-08-18",
+      "tipo": "sudamericana",
+      "fuente": "https://fotmob.com/teams/10006/fixtures/river-plate",
+      "notificado_en": "2026-06-13"
+    },
+    {
       "id": "river-plate-libertadores-2026-08-19",
       "nombre": "River Plate (Copa Libertadores - Octavos de Final)",
       "fecha": "2026-08-19",
@@ -105,5 +113,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-06-12T20:24:04.176090+00:00"
+  "ultima_revision": "2026-06-13T04:46:38.016746+00:00"
 }
