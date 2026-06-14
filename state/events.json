@@ -65,6 +65,14 @@
       "notificado_en": "2026-06-08"
     },
     {
+      "id": "river-plate-sudamericana-octavos-2026-08-19",
+      "nombre": "River Plate vs. Rival a definir (Copa Sudamericana - Octavos de Final, Vuelta)",
+      "fecha": "2026-08-19",
+      "tipo": "sudamericana",
+      "fuente": "https://www.lanacion.com.ar/deportes/futbol/copa-sudamericana-2026-cuadro-y-fechas-confirmadas-para-las-semanas-de-playoffs-y-octavos-de-final-nid30052026/",
+      "notificado_en": "2026-06-14"
+    },
+    {
       "id": "21k-media-maraton-buenos-aires-2026-08-23",
       "nombre": "21K Media Maratón Buenos Aires",
       "fecha": "2026-08-23",
@@ -113,5 +121,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-06-14T05:03:42.686263+00:00"
+  "ultima_revision": "2026-06-14T09:54:31.799049+00:00"
 }
