@@ -113,6 +113,14 @@
       "notificado_en": "2026-05-30"
     },
     {
+      "id": "river-plate-sudamericana-cuartos-2026-09-15",
+      "nombre": "River Plate (Copa Sudamericana - Cuartos de Final - Vuelta)",
+      "fecha": "2026-09-15",
+      "tipo": "sudamericana",
+      "fuente": "https://www.tycsports.com/futbol/fixture-copa-sudamericana-2026-calendario-de-partidos-y-resultados-id519159.html",
+      "notificado_en": "2026-06-18"
+    },
+    {
       "id": "river-plate-vs-palmeiras-2026-09-17",
       "nombre": "River Plate vs. Palmeiras",
       "fecha": "2026-09-17",
@@ -129,5 +137,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-06-18T04:59:21.690993+00:00"
+  "ultima_revision": "2026-06-18T15:50:56.936482+00:00"
 }
