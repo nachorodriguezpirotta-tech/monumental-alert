@@ -73,6 +73,14 @@
       "notificado_en": "2026-06-14"
     },
     {
+      "id": "river-sudamericana-2026-08-19",
+      "nombre": "River Plate vs. Oponente por confirmar - Copa Sudamericana (Octavos de Final)",
+      "fecha": "2026-08-19",
+      "tipo": "sudamericana",
+      "fuente": "https://www.conmebol.com/sudamericana/fixture/",
+      "notificado_en": "2026-06-18"
+    },
+    {
       "id": "21k-media-maraton-buenos-aires-2026-08-23",
       "nombre": "21K Media Maratón Buenos Aires",
       "fecha": "2026-08-23",
@@ -121,5 +129,5 @@
       "notificado_en": "2026-05-25"
     }
   ],
-  "ultima_revision": "2026-06-17T20:29:04.641835+00:00"
+  "ultima_revision": "2026-06-18T04:59:21.690993+00:00"
 }
