@@ -25,6 +25,14 @@
       "notificado_en": "2026-05-30"
     },
     {
+      "id": "river-sudamericana-octavos-ida-2026-08-12",
+      "nombre": "River Plate - CONMEBOL Sudamericana Octavos de Final (Ida)",
+      "fecha": "2026-08-12",
+      "tipo": "sudamericana",
+      "fuente": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzLrfjpH8nLedVgMzNF7mxUKav9qht6355i4T3tL6aOCBlhLhvrvmyHv-e9jZQjpTuBF-cZ-raQwCUkexb5wD3ZI8gNXZSzV9dIZVNHQqHExYcp9xIBi3uIG8lnViVUrzK0GvLG59iHsXlSPE=",
+      "notificado_en": "2026-06-20"
+    },
+    {
       "id": "river-plate-sudamericana-octavos-vuelta-2026-08-18",
       "nombre": "River Plate vs. Rival a confirmar (Copa Sudamericana - Octavos de Final, Vuelta)",
       "fecha": "2026-08-18",
@@ -135,7 +143,15 @@
       "tipo": "otro",
       "fuente": "https://www.sucresuites.com.ar/eventos-2026/",
       "notificado_en": "2026-05-25"
+    },
+    {
+      "id": "seleccion-argentina-vs-paraguay-2026-10-12",
+      "nombre": "Selección Argentina vs. Paraguay (Eliminatorias Mundial 2026)",
+      "fecha": "2026-10-12",
+      "tipo": "seleccion",
+      "fuente": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGy3WyE3sHnW9yg3t1Z7ruUduNT9opl140svh1UQOCdnWpBAQy5apOgOgu2msDcfoRh8RhQkrmBEruMW51B7bgqpy7iVZ2BRnf-aZiglN7FDA8vCWWVVvPi7xdRF8PvVmeKLAgKxGwju4vuk0YSiDjFxwTX9tSrTtIDm70PJi4VPHuBlRkvByU5Wd-rUgZTDznSWM0S4do62LilVD-7TqpL-vO7QgeXWY0-dOE56CM=",
+      "notificado_en": "2026-06-20"
     }
   ],
-  "ultima_revision": "2026-06-20T14:27:47.909027+00:00"
+  "ultima_revision": "2026-06-20T19:52:42.527566+00:00"
 }
