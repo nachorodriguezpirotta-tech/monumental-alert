@@ -113,6 +113,14 @@
       "notificado_en": "2026-05-17"
     },
     {
+      "id": "seleccion-argentina-vs-chile-2026-09-05",
+      "nombre": "Selección Argentina vs Chile (Eliminatorias Mundial 2026)",
+      "fecha": "2026-09-05",
+      "tipo": "seleccion",
+      "fuente": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVsQUaj1uLHJma1CpCJr-V9CkZzM78ObkFxoRjlQzcpn5uttVlmm85YylZVZGsZ84MwNMDyTLIkZdjDhjclHHz8K_Syc9C6oswmHWhD6rodS-ij1EscUrvw6TH2RMZcHScAP9x_Y_xnp8HlRHjW02iVcCLYnP2OeLq93wHOsDbiBHTVQHUwHUv",
+      "notificado_en": "2026-06-27"
+    },
+    {
       "id": "seleccion-argentina-vs-ecuador-2026-09-07",
       "nombre": "Selección Argentina vs. Ecuador (Eliminatorias Mundial 2026)",
       "fecha": "2026-09-07",
@@ -161,5 +169,5 @@
       "notificado_en": "2026-06-20"
     }
   ],
-  "ultima_revision": "2026-06-26T20:06:12.165663+00:00"
+  "ultima_revision": "2026-06-27T04:13:58.944727+00:00"
 }
