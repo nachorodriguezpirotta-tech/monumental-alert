@@ -1,6 +1,14 @@
 {
   "eventos": [
     {
+      "id": "river-vs-flamengo-2026-07-03",
+      "nombre": "River Plate vs. Flamengo - Amistoso Internacional",
+      "fecha": "2026-07-03",
+      "tipo": "otro",
+      "fuente": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsqQVtQdtEqJUdqGbv3RxJ4zhT4y5eYd9rQnBLleuOHKlQA6UOrgKOEKN069lCB6FxG-3pY0Cwqo7R5_VtwdFysYCKw7sKNwo7FtQAQ-MqxO-pHBb2THu2avKXX7d0d9ziXG6omAg0",
+      "notificado_en": "2026-06-27"
+    },
+    {
       "id": "river-vs-aldosivi-2026-07-17",
       "nombre": "River Plate vs. Aldosivi",
       "fecha": "2026-07-17",
@@ -169,5 +177,5 @@
       "notificado_en": "2026-06-20"
     }
   ],
-  "ultima_revision": "2026-06-27T08:49:02.764615+00:00"
+  "ultima_revision": "2026-06-27T14:04:27.988038+00:00"
 }
