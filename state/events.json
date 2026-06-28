@@ -25,6 +25,14 @@
       "notificado_en": "2026-05-14"
     },
     {
+      "id": "river-vs-barracas-central-2026-07-25",
+      "nombre": "River Plate vs. Barracas Central",
+      "fecha": "2026-07-25",
+      "tipo": "otro",
+      "fuente": "https://www.lapaginamillonaria.com/river-plate/oficial-el-fixture-confirmado-de-river-para-las-tres-primeras-fechas-del-clausura-2026-20260625-0002.html",
+      "notificado_en": "2026-06-28"
+    },
+    {
       "id": "river-plate-sudamericana-2026-07-29",
       "nombre": "River Plate (Octavos de Final Copa Sudamericana - Vuelta)",
       "fecha": "2026-07-29",
@@ -39,6 +47,14 @@
       "tipo": "recital",
       "fuente": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENijEOfcloxjqytopGVvibEGz2Xjj8KhYAFUhUy7p31id6tJmIJKk5m1tvpbdmEavJeYWx_JGl-unHZTdgHOi_E0eqIQnN8pyjreuSWauyL_dHRzPEEq2-f6kDJgCukpM6wW0gP47O8U4SpG5SkNvg1PnzBjmTsIWxPuDd3WmaG2u4BxoOS3f3",
       "notificado_en": "2026-05-30"
+    },
+    {
+      "id": "river-vs-rosario-central-2026-08-02",
+      "nombre": "River Plate vs. Rosario Central",
+      "fecha": "2026-08-02",
+      "tipo": "otro",
+      "fuente": "https://www.lapaginamillonaria.com/river-plate/oficial-el-fixture-confirmado-de-river-para-las-tres-primeras-fechas-del-clausura-2026-20260625-0002.html",
+      "notificado_en": "2026-06-28"
     },
     {
       "id": "river-sudamericana-octavos-ida-2026-08-12",
@@ -71,6 +87,14 @@
       "tipo": "sudamericana",
       "fuente": "https://fotmob.com/teams/10006/fixtures/river-plate",
       "notificado_en": "2026-06-13"
+    },
+    {
+      "id": "river-vs-santa-fe-caracas-2026-08-18",
+      "nombre": "River Plate vs. Independiente Santa Fe/Caracas FC (Copa Sudamericana - Octavos de Final Vuelta)",
+      "fecha": "2026-08-18",
+      "tipo": "sudamericana",
+      "fuente": "https://www.tycsports.com/river-plate/cuando-y-contra-quien-juega-river-los-octavos-de-final-de-la-copa-sudamericana-id500207.html",
+      "notificado_en": "2026-06-28"
     },
     {
       "id": "river-plate-libertadores-2026-08-19",
@@ -177,5 +201,5 @@
       "notificado_en": "2026-06-20"
     }
   ],
-  "ultima_revision": "2026-06-27T19:42:46.230340+00:00"
+  "ultima_revision": "2026-06-28T04:47:08.095599+00:00"
 }
