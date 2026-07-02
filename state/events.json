@@ -97,6 +97,14 @@
       "notificado_en": "2026-06-28"
     },
     {
+      "id": "river-sudamericana-octavos-vuelta-2026-08-18",
+      "nombre": "River Plate - Copa Sudamericana - Octavos de Final (Vuelta)",
+      "fecha": "2026-08-18",
+      "tipo": "sudamericana",
+      "fuente": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb8qHjAvkBgC4jSC4vv3OSWy0FTNd-Zts60J9dUtKaonaMBraxqWgXsxvepCTxexZpmayk6ZcQreRCfrPpqkXXFUjmjI_DbhiOhWaw58OBQq_b24jcFOiR2jCLVN1MEz9VseOgGgizKByRgiMPbUa65sStSpklwdoMuayXwZi_0X8weAeRXbnbiSlO6nHEN2QBvJ88aB1WKUtX6Nv1m3OQKyapj4WZcesZqwS1ft2pPZ6syQ==",
+      "notificado_en": "2026-07-02"
+    },
+    {
       "id": "river-plate-libertadores-2026-08-19",
       "nombre": "River Plate (Copa Libertadores - Octavos de Final)",
       "fecha": "2026-08-19",
@@ -177,6 +185,14 @@
       "notificado_en": "2026-06-18"
     },
     {
+      "id": "river-sudamericana-cuartos-vuelta-2026-09-15",
+      "nombre": "River Plate - Copa Sudamericana - Cuartos de Final (Vuelta)",
+      "fecha": "2026-09-15",
+      "tipo": "sudamericana",
+      "fuente": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb8qHjAvkBgC4jSC4vv3OSWy0FTNd-Zts60J9dUtKaonaMBraxqWgXsxvepCTxexZpmayk6ZcQreRCfrPpqkXXFUjmjI_DbhiOhWaw58OBQq_b24jcFOiR2jCLVN1MEz9VseOgGgizKByRgiMPbUa65sStSpklwdoMuayXwZi_0X8weAeRXbnbiSlO6nHEN2QBvJ88aB1WKUtX6Nv1m3OQKyapj4WZcesZqwS1ft2pPZ6syQ==",
+      "notificado_en": "2026-07-02"
+    },
+    {
       "id": "river-plate-vs-palmeiras-2026-09-17",
       "nombre": "River Plate vs. Palmeiras",
       "fecha": "2026-09-17",
@@ -199,7 +215,15 @@
       "tipo": "seleccion",
       "fuente": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGy3WyE3sHnW9yg3t1Z7ruUduNT9opl140svh1UQOCdnWpBAQy5apOgOgu2msDcfoRh8RhQkrmBEruMW51B7bgqpy7iVZ2BRnf-aZiglN7FDA8vCWWVVvPi7xdRF8PvVmeKLAgKxGwju4vuk0YSiDjFxwTX9tSrTtIDm70PJi4VPHuBlRkvByU5Wd-rUgZTDznSWM0S4do62LilVD-7TqpL-vO7QgeXWY0-dOE56CM=",
       "notificado_en": "2026-06-20"
+    },
+    {
+      "id": "river-sudamericana-semifinales-vuelta-2026-10-20",
+      "nombre": "River Plate - Copa Sudamericana - Semifinales (Vuelta)",
+      "fecha": "2026-10-20",
+      "tipo": "sudamericana",
+      "fuente": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb8qHjAvkBgC4jSC4vv3OSWy0FTNd-Zts60J9dUtKaonaMBraxqWgXsxvepCTxexZpmayk6ZcQreRCfrPpqkXXFUjmjI_DbhiOhWaw58OBQq_b24jcFOiR2jCLVN1MEz9VseOgGgizKByRgiMPbUa65sStSpklwdoMuayXwZi_0X8weAeRXbnbiSlO6nHEN2QBvJ88aB1WKUtX6Nv1m3OQKyapj4WZcesZqwS1ft2pPZ6syQ==",
+      "notificado_en": "2026-07-02"
     }
   ],
-  "ultima_revision": "2026-07-01T20:08:31.174941+00:00"
+  "ultima_revision": "2026-07-02T04:18:39.550316+00:00"
 }
