@@ -209,6 +209,14 @@
       "notificado_en": "2026-06-20"
     },
     {
+      "id": "seleccion-argentina-vs-bolivia-2026-10-15",
+      "nombre": "Eliminatorias Mundial 2026: Argentina vs. Bolivia",
+      "fecha": "2026-10-15",
+      "tipo": "seleccion",
+      "fuente": "https://www.copaamerica.com/es/noticias/cuando-donde-juegan-proximas-fechas-eliminatorias-sudamericanas/23/",
+      "notificado_en": "2026-07-06"
+    },
+    {
       "id": "river-sudamericana-semifinales-vuelta-2026-10-20",
       "nombre": "River Plate - Copa Sudamericana - Semifinales (Vuelta)",
       "fecha": "2026-10-20",
@@ -217,5 +225,5 @@
       "notificado_en": "2026-07-02"
     }
   ],
-  "ultima_revision": "2026-07-06T04:36:16.930377+00:00"
+  "ultima_revision": "2026-07-06T10:59:15.016085+00:00"
 }
