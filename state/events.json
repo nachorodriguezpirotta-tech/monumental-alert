@@ -1,14 +1,6 @@
 {
   "eventos": [
     {
-      "id": "river-vs-aldosivi-2026-07-17",
-      "nombre": "River Plate vs. Aldosivi",
-      "fecha": "2026-07-17",
-      "tipo": "copa-argentina",
-      "fuente": "https://www.riverplate.com.ar/futbol/futbol-profesional/masculino/entradas/river-plate-vs-aldosivi-copa-argentina-2026",
-      "notificado_en": "2026-06-22"
-    },
-    {
       "id": "los-piojos-2026-07-18",
       "nombre": "Los Piojos",
       "fecha": "2026-07-18",
@@ -233,5 +225,5 @@
       "notificado_en": "2026-07-02"
     }
   ],
-  "ultima_revision": "2026-07-17T13:59:19.410370+00:00"
+  "ultima_revision": "2026-07-18T03:25:45.603762+00:00"
 }
